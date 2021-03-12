@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keyword" content="form">
+        <meta name="description" content="form">
+        <meta name="author" content="anil">
+        <meta name="viewport" content="width= device-width,initial-scale=1.0">
+        <title>form using all attributes</title>
+        <link rel="stylesheet" href="formstyle.css">
+    </head>
+<body>
+    <caption> ADMISSION FORM </caption> <br>
+    <form class="admission">
+        <label for="College Name">College Name:</label>
+        <input type="text" id="collegename" name="College Name" value="ADITYA INSTITUTE OF ENGINEERING AND TECHNOLOGY" readonly>
+        <br>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" maxlength="20" required>
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" maxlength="20" required>
+        <br>
+        <label for="fname">Father's Name:</label>
+        <input type="text" id="faname" name="lname" placeholder="Enter your Father's name" maxlength="20">
+        <br>
+        <label for="Course">Course:</label>
+        <input type="text" id="course" name="lname" value="B.Tech-VIII Semesters" disabled>
+        <br>
+        <label for="Course">Course:</label>
+        <input type="text" id="course" name="lname" value="B.Tech-VIII Semesters" disabled>
+        <br>
+        <label for="datemax">Date of Admission(Enter date before 31.12.2020)</label>
+        <input type="date" id="maxdate" name="maxdate" max="2020-12-30">
+        <br>
+        <br>
+        <br>
+        <label for="datemin">Date of Reporting(Enter date after 31.12.2020)</label>
+        <input type="date" id="mindate" name="mindate" min="2021-01-01">
+        <br>
+        <br><br>
+        <label for="SSCgrade">SSC Marks Grade:</label>
+        <input type="number" id="qty" name="quantity" min="1" max="3">
+        <br>
+        <br>
+        <input type="submit" value="submit">
+        <br>
+    </form>

@@ -1,0 +1,49 @@
+/* global variable */
+:root{
+ --green:blueviolet;      
+}
+.buttoncontainer button {
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+}
+.typeOne{
+    background-color: blueviolet;
+}
+.typeTwo{
+    background-color:red;
+}
+.typeThree{
+    background-color: seagreen;
+}
+.firstPagination{
+    font-weight: bold;
+    padding: 5px;
+}
+.columnlayout{
+    column-count: 5;
+    column-gap: 15px;
+    column-rule-color: springgreen;
+    column-rule-width: 5px;
+    column-rule-style: double;  
+}
+.heading{
+    color: var(--green);
+}
+.animation{
+    width:200px;
+    height:210px;
+    background-color: tomato;
+    animation-name:boxanimation;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+    animation-timing-function: ease-in;
+}
+@keyframes boxanimation{
+    10% {background-color: yellow;}
+    20% {background-color: rgb(255, 0, 98);}
+    10% {background-color: rgb(255, 51, 0);}
+    30% {background-color: rgb(0, 217, 255);}
+    10% {background-color: rgb(0, 255, 13);}
+}

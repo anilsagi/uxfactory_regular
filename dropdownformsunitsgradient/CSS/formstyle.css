@@ -1,0 +1,32 @@
+/* Admissionform */
+*{
+    background-color: cornsilk;
+    background-image: image-set(Aditya.jpg);
+}
+
+.admission{
+    margin: 20px;
+}
+
+.admission label{
+    background-color: rgb(221, 158, 116);
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 10%;
+    float: left;
+}
+.admission input{
+    padding: 15px;
+    display: inline;
+    width: 60%;
+    margin:0px;
+    background-color: rgb(207, 191, 140);
+    border-radius: 25px;
+    position: relative;
+    margin-left: 15px;
+}
+submit{
+    background-color: black;
+
+}

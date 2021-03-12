@@ -1,0 +1,33 @@
+.animationOne{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    animation-name: Animationcolors;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+    animation-timing-function: ease-in;
+}
+@keyframes Animationcolors{
+    20% {background-color: crimson;}
+    30% {background-color: rgb(20, 220, 47);}
+    10% {background-color: rgb(220, 143, 20);}
+    20% {background-color: rgb(220, 20, 153);}
+    20% {background-color: rgb(20, 220, 187);}
+}
+.animationTwo{  
+    width: 100px;
+    height: 100px;
+    background-color: rgb(174, 0, 255);
+    position: relative;
+    animation-name: Animation2;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}
+@keyframes Animation2{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}

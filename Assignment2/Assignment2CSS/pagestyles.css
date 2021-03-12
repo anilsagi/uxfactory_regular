@@ -1,0 +1,52 @@
+.container{
+    width: 200px;
+    height:500px;
+    float: left;
+    border:1px solid rgba(0, 0, 0, 0.157);
+    margin-left: 10px;
+    box-shadow:1px 1px 5px grey;
+}
+.numberBox{
+    background-color: green;
+    color: white;
+    padding: 3px;
+    margin-left: 5px;
+}
+.fadedText{
+    color: rgb(170, 170, 170);
+}
+.header{
+border-top: 1px dashed lightgray;
+color: lightgray;
+width: 90%;
+}
+.icon{
+   display: block;
+   margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.text{
+    text-align: center;
+}
+.featuresList{
+    margin-left: -10px;
+}
+.price{
+    color: red;
+    font-weight: bold ;
+}
+.button{
+    color: #FF4A4A;
+    background-color: white;
+    border: 1px solid #FF4A4A;
+    width: 90%;
+    padding: 8px;
+    margin-left: 10px;
+}
+.numberBoxone{
+    background-color: rgb(228, 128, 13);
+    color: white;
+    padding: 3px;
+    margin-left: 5px;
+}

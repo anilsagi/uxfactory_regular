@@ -1,0 +1,122 @@
+*{
+    background-color: whitesmoke;
+}
+
+.dropdown{
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+}
+.dropdown span{
+    background-color:violet ;
+    color: tomato;
+    padding:10px 15px;
+}
+.dropdowncontent{
+    display: none;
+    position:absolute;
+    background-color: #ff0028;
+    min-width: 150px;
+    box-shadow:0px 10px 15px 0px #ff02;
+    padding: 12px 15px;
+    z-index: 1;
+}
+.dropdown:hover .dropdowncontent {
+    display: block;
+}
+/* Forms */
+.nameform{
+    margin: 20px;
+}
+.nameform input{
+    padding: 10px;
+    display: block;
+    width: 80%;
+    margin: 15px 0px;
+    background-color: thistle;
+    border-radius: 15px;
+    position: relative;
+}
+#submit{
+    background-color: rgba(6, 168, 168, 0.513);
+    cursor: pointer;
+    padding: 0px;
+}
+.nameform label{
+    background-color: burlywood;
+    padding: 9px;
+    border-radius: 10px;
+}
+.head{
+    color: red;
+}
+#heading{
+    color: crimson;
+}
+/* wefonts */
+@font-face {
+    font-family:webfont;
+    src: url(Zantroke.otf);
+}
+#varintro {
+    font-family:webfont;
+}
+@font-face {
+    font-family:moteserrat;
+    src: url(Montserrat-Italic.otf);
+}
+#testskills {
+    font-family:moteserrat;
+}
+/* gradients */
+#gradientLT{
+    background-image: linear-gradient(to top,violet, blue,indigo, green, red);
+    padding: 12px;
+    margin: 0px;
+}
+#gradientLB{
+    background-image: linear-gradient(to bottom,violet, blue,indigo, green, red);
+    padding: 12px;
+    margin: 0px;
+}
+#gradientR{
+    background-image: radial-gradient(ellipse, violet 60%,  green 40%);
+    padding: 12px;
+    margin: 0px;
+}
+#gradientRC{
+    background-image: radial-gradient(circle, brown 20%,  white 80%);
+    padding: 50px;
+    margin: 0px;
+/* shadows */
+#shadow {
+    background-image: radial-gradient(circle, violet 60%,  green 40% );
+    padding: 50px;
+    margin: 0px;
+}
+#shadow div{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block;
+    box-shadow: (0 4px 8px 0 black);
+}
+/* Admissionform */
+.admission{
+    margin: 20px;
+}
+
+.admission label{
+    background-color: rgb(135, 187, 222);
+    padding: 9px;
+    border-radius: 10px;
+}
+.admission input{
+    padding: 15px;
+    display: inline;
+    width: 60%;
+    margin:0px;
+    background-color: rgb(173, 142, 84);
+    border-radius: 25px;
+    position: absolute;
+}

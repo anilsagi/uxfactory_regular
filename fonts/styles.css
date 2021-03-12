@@ -1,0 +1,150 @@
+h1{
+    font-style: inherit;
+    color: violet
+}
+.one{
+    color: tomato;
+}
+
+.one:hover {
+    color: violet;
+    background-color: yellow;
+}
+
+.two{
+    color: rgb(92, 255, 71);
+}
+
+.two:hover {
+    color: rgb(236, 140, 13);
+    background-color: rgb(177, 177, 176);
+}
+.two:visited {
+    color: rgb(15, 15, 15);
+}
+
+
+.three{
+    color: rgb(151, 71, 255);
+}
+
+.three:hover {
+    color: rgb(74, 21, 83);
+    background-color: rgba(206, 206, 191, 0.431);
+}
+
+.four{
+    color: rgb(255, 71, 209);
+}
+
+.four:hover {
+    color: rgb(21, 76, 83);
+    background-color: rgba(209, 38, 38, 0.863);
+}
+.p-one {
+    border: 10px rgb(57, 139, 19);
+    max-width: 100%;
+}
+.nav {
+    list-style-type: none;
+    margin  :0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(114, 150, 250);
+    margin-top: 25px;
+    width: 80%;
+    font-size: 25px;
+    border-color: black ;
+}
+.nav li {
+    float: left; 
+}
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li ul {
+    display: none;
+}
+.nav li:hover>ul {
+    display : block;
+}
+/* poistioning */
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 255, 106);
+    color: white;
+  }
+  
+  #two {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: rgb(255, 0, 0);
+  }
+
+
+  /* overflow */
+  .visible {
+    background-color: rgb(212, 18, 18);
+    width: 800px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: visible;
+  }
+  .hidden {
+    background-color: rgb(18, 37, 212);
+    width: 800px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: hidden;
+  }
+  .scroll {
+    background-color: rgb(212, 219, 214);
+    width: 800px;
+    height: 50px;
+    border: 1px dotted rgb(223, 9, 9);
+    overflow: scroll;
+  }
+  .auto {
+    background-color: rgb(50, 218, 98);
+    width: 800px;
+    height: 50px;
+    border: 1px dotted rgb(9, 223, 195);
+    overflow: auto;
+  }
+  /* positioning */
+  .position {
+      position: absolute;
+      width: 350px;
+      height: 200px;
+      background: #ff0;
+      /* left: 0px; */
+      /* right: 0px; */
+      /* bottom:0px; */
+      top: 0px;
+      }
+    
+    div {
+        width:  300px;
+        height: 300px;
+        background: #f06;
+        margin: 2px;
+        text-align: center;
+        padding: 20px;
+    }
+    .test {
+        position: relative;
+        left: 500px;
+        background-color: chartreuse;
+        top: 0px;
+    }
