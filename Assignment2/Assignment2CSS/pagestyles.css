@@ -1,3 +1,9 @@
+.mainContainer{
+    margin: 10px auto;
+    width:900px;
+    height: auto;
+    /* border: 1px solid red; */
+}
 .container{
     width: 200px;
     height:500px;
@@ -5,6 +11,7 @@
     border:1px solid rgba(0, 0, 0, 0.157);
     margin-left: 10px;
     box-shadow:1px 1px 5px grey;
+
 }
 .numberBox{
     background-color: green;

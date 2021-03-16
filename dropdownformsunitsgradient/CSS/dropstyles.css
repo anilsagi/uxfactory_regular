@@ -120,3 +120,9 @@
     border-radius: 25px;
     position: absolute;
 }
+.commentPart{
+    color: chartreuse;
+}
+.text1{
+    float: left;
+}

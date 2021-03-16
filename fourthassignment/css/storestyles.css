@@ -111,18 +111,19 @@ padding:5px 20px 5px 20px;
 /* t l b r */
 margin-left: 360px;
 color: white;
+cursor: pointer;
 }
 .typeTwo,.typeThree{
 background-color:#662079 ;
 color: white;
+padding: 5px;
+margin-right: -15px;
 /* t l b r */
-}
-.typeTwo{
-background-color:#662079 ;
+cursor: pointer;
 }
 .container,.containerBlog {
 width: 28%;
-height: 180px;
+height: 190px;
 background-color: white;
 border: 1px solid #f1f1f1;
 margin-left: 15px;
@@ -146,6 +147,7 @@ margin-left: 15px;
 display: inline-flex;
 margin-top: 20px;
 width: 28%;
+line-height: 1;
 }
 .iphone,.typeThree{
 background-color: #02BBF3;
@@ -155,10 +157,10 @@ background-color: #02BBF3;
 }
 .finalText{
     color: brown;
+    margin-right: 5px;
 }
 .windows {
-    background-color: #662079 ;
-
+    background-color: #662079;
 }
 .android{
 background-color: #88C014;
@@ -196,7 +198,7 @@ margin-left: 120px;
 font-weight: 200;
 font-size: 11px;
 font-family: sans-serif;
-margin-left: 10px;
+margin-left: 0px;
 }
 .starIcon{
 color: orange;
@@ -214,7 +216,24 @@ margin-left: 10px;
 .text1{
 margin-left: -200px;
 margin-top: 110px;
-vertical-align: bottom;}
+vertical-align: bottom;
+}
+.commentPart, .commentLogo{
+    margin-left: -185px;
+    display: inline;
+    float: left;
+}
+.readComments{
+ margin-left: -70px;
+ display: inline;
+ color:#02BBF3 ;
+ text-decoration: none;
+}
+.commentLogo{
+    margin-left: -200px;
+    /* color: black; */
+    background-color: lightgray;
+} 
 .text2{
 margin-left: -180px;
 margin-top: 110px;
@@ -225,6 +244,9 @@ margin-left: -170px;
 margin-top: 110px;
 vertical-align: bottom;
 }
+.comments{
+    float: left;
+}
 .bottomContainer{
 width: 937px;
 height: 300px;
@@ -232,14 +254,18 @@ background-color: #F3F3F3;
 margin-top:10px;
 border:1px solid transparent;	
 }
-.bottomLeftContainer{float:left;}
+.bottomLeftContainer{
+    float:left;
+}
 .bottomLeftOne{
 margin: 10px 10px 10px 82px;
 }
 .bottomLeftTwo{
 margin: 65px 10px 10px 82px;
 }
-.bottomMiddleTwo{margin-top:65px;}
+.bottomMiddleTwo{
+margin-top:65px;
+}
 .bottomLeftOne h4, .bottomMiddleOne h4, .bottomRight h4{
 font-family: sans-serif;
 font-weight: 200;
@@ -279,7 +305,34 @@ border: 1px solid transparent;
     margin-left: -460px;
     /* margin: 0 auto; */
     color: gray;
+    padding: 15px;
 }
 .lastStyle{
-    margin-left: -200px;
+    /* margin-left: -200px; */
+    text-align: center;
+    color: gray;
+    padding: 15px;
+}
+.arrowIcon, .arrowIconTwo {
+    color: white;
+    background-color: #662079;
+    margin-right: 21px;
+    padding: 5px;
+}
+.arrowIcon, .arrowIconTwo {
+    background-color: #662079;
+}
+.arrowIconTwo {
+    background-color: #02BBF3;
+}
+.fp{
+ color: blue;   
+}
+
+.arrowIconThree{
+    padding:0px;
+    margin-right: -9px;
+    color: #02BBF3;
+    background-color:white;
+    padding: 3px;
 }
