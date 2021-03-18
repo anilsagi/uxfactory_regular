@@ -70,7 +70,7 @@ h1{
     display: none;
 }
 .nav li:hover>ul {
-    display : block;
+    display : list-item;
 }
 /* poistioning */
 * {

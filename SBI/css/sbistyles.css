@@ -1,0 +1,34 @@
+.wpanel_marquee {
+    background: rgb(255, 189, 131);
+    font-weight: bold;
+    /* padding: 7px; */
+    display: block;
+    margin: 10px 0px;
+}
+#message {
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 28px; 
+    text-align: center;
+}
+.blinkText{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color:rgb(0, 98, 255);
+        font-size: 15px;
+        animation-name: alertMessage;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        font-weight: bold;
+    }
+    @keyframes alertMessage {
+        40% {color:rgb(0, 98, 255)}
+        40% {color:red}
+        30% {color: rgb(220, 143, 20);}
+    }
+.row{
+   cursor: pointer;
+   color: royalblue;
+}
