@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keyword" content="javascriptEvents">
+        <meta name="Description" content="javascriptEvents">
+        <meta name="author" content="Anil">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Javascript Events</title>
+        <!-- <link href="intro.js" rel="javascript">         -->
+        <script type="text/javascript" src="../js/event.js"></script>
+        <link href="../css/event.css" rel="CSS Styles">
+    </head>
+    <body>
+        <marquee onmouseover="stop()" onmouseout="start()">Hi, This all about events in JS</marquee>
+        <br>
+        <p onmouseover="onMouseOverEvent(this)" onmouseout="onMouseOutEvent(this)">Hi How are you dear?</p>
+        <h4> Basic Calculator</h4>
+        <form name="firstForm">
+            Number 1:<input type="number" name="num1"/><br>
+            Number 2:<input type="number" name="num2"/><br>
+            Result<input type="number" name="Total"/><br>
+            <input type="button" name="Add" value="Add" onclick="additionCalc(this)"/>
+            <input type="button" name="sub" value="sub" onclick="additionCalc(this)"/>
+            <input type="button" name="mul" value="mul" onclick="additionCalc(this)"/>
+            <input type="button" name="div" value="div" onclick="additionCalc(this)"/>
+        </form>
+    
+    </body>
+
+</html>

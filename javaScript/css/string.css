@@ -1,0 +1,29 @@
+.heading{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color:rgb(0, 98, 255);
+    font-size: 30px;
+    animation-name: heading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+}
+@keyframes heading {
+    40% {color:rgb(0, 98, 255)}
+   80% {color:red}
+  
+}
+.columns{
+column-count: 2;
+column-gap: 20px;
+column-rule-color: black;
+column-rule-width: 5px;
+column-rule-style: groove; 
+margin: 0 auto;
+margin-left: 30px;
+margin-right: 45px;
+} 
+.hliNe{
+    line
+}

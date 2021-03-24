@@ -24,19 +24,19 @@
         </nav>
     </div>
     <!-- nav bar -->
-    <nav class="container navbar-hover navbar-expand-lg navbar-primary bg-primary ">
+    <nav class="container navbar-hover navbar-expand-lg sbiOnline">
         <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav m-0 p-0 text-center list-unstyled">
-                <li class="nav-item has-dimmer dropdown">
+            <ul class="navbar-nav m-0 p-0 text-center list-unstyled navTabs">
+                <li class="nav-item has-dimmer dropdown navTabs">
                     <a class="nav-link dropdown-toogle text-white" href="#" data-toggle="dropdown">Services</a>
                     <ul class="dropdown-menu list-unstyled m-0 p-0">
                         <li>
-                            <a class="dropdown-item" href="#">Personal Internet Banking</a>
+                            <a class="dropdown-item navTabs" href="#">Personal Internet Banking</a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="#">Corporate Internet Banking</a>
@@ -52,7 +52,7 @@
                 </li>
 
                 <li class="nav-item has-dimmer dropdown">
-                    <a class="nav-link text-white" href="#" data-toggle="dropdown">Mobile Banking</a>
+                    <a class="nav-link text-white navTabs" href="#" data-toggle="dropdown">Mobile Banking</a>
 
                     <ul class="dropdown-menu list-unstyled m-0 p-0">
                         <li>
@@ -64,7 +64,7 @@
                     </ul>
                 </li>
                 <li class="nav-item has-dimmer dropdown">
-                    <a class="nav-link text-white" href="#" data-toggle="dropdown">FAQ</a>
+                    <a class="nav-link text-white navTabs" href="#" data-toggle="dropdown">FAQ</a>
                     <ul class="dropdown-menu list-unstyled m-0 p-0">
                         <li>
                             <a class="dropdown-item" href="#">Personal Banking FAQ</a>
@@ -81,10 +81,10 @@
                     </ul>
                 </li>
                 <li class="nav-item has-dimmer dropdown">
-                    <a class="nav-link text-white" href="#" data-toggle="dropdown">Coroporate Website</a>
+                    <a class="nav-link text-white navTabs" href="#" data-toggle="dropdown">Coroporate Website</a>
                 </li>
                 <li class="nav-item has-dimmer dropdown">
-                    <a class="nav-link text-white" href="#" data-toggle="dropdown">SBMOPS</a>
+                    <a class="nav-link text-white navTabs" href="#" data-toggle="dropdown">SBMOPS<span class="powerText"><sup>New</sup></span></a>
                     <ul class="dropdown-menu list-unstyled m-0 p-0">
                         <li>
                             <a class="dropdown-item" href="#">MOPS Branch Challan(CP)/Reprint Remittance Form</a>
@@ -101,10 +101,10 @@
                     </ul>
                 </li>
                 <li class="nav-item has-dimmer dropdown">
-                    <a class="nav-link text-white" href="#" data-toggle="dropdown">SB Collect</a>
+                    <a class="nav-link text-white navTabs" href="#" data-toggle="dropdown">SB Collect</a>
                 </li>
                 <li class="nav-item has-dimmer dropdown">
-                    <a class="nav-link text-white" href="#" data-toggle="dropdown">Electroral Bond</a>
+                    <a class="nav-link text-white navTabs" href="#" data-toggle="dropdown">Electroral Bond</a>
                     <ul class="dropdown-menu list-unstyled m-0 p-0">
                         <li>
                             <a class="dropdown-item" href="#">Information / Downloads</a>
@@ -118,10 +118,10 @@
                     </ul>
                 </li>
                 <li class="nav-item has-dimmer dropdown">
-                    <a class="nav-link text-white" href="#" data-toggle="dropdown">Videos</a>
+                    <a class="nav-link text-white navTabs" href="#" data-toggle="dropdown">Videos</a>
                 </li>
                 <li class="nav-item has-dimmer dropdown">
-                    <a class="nav-link text-white" href="#" data-toggle="dropdown">mCash</a>
+                    <a class="nav-link text-white navTabs" href="#" data-toggle="dropdown">mCash</a>
                 </li>
                 <li class="nav-item has-dimmer dropdown">
                     <a class="nav-link text-white" href="#" data-toggle="dropdown">Apply for SBI Current Acccount</a>
@@ -148,19 +148,18 @@
                                 </li>
                             </ul>
                         </li>
-                    </ul>
                 </li>
                 <li>
                     <a class="dropdown-item" href="#">Current Account</a>
                 </li>
                 <li class="nav-item has-dimmer dropdown">
-                    <a class="nav-link text-white" href="#" data-toggle="dropdown">NPS</a>
+                    <a class="nav-link text-white navTabs" href="#" data-toggle="dropdown">NPS</a>
                 </li>
                 <li class="nav-item has-dimmer dropdown">
-                    <a class="nav-link text-white" href="#" data-toggle="dropdown">Bill Pay</a>
+                    <a class="nav-link text-white navTabs" href="#" data-toggle="dropdown">Bill Pay</a>
                 </li>
                 <li class="nav-item has-dimmer dropdown">
-                    <a class="nav-link text-white" href="#" data-toggle="dropdown">SBI Loans</a>
+                    <a class="nav-link text-white navTabs" href="#" data-toggle="dropdown">SBI Loans</a>
                 </li>
             </ul>
         </div>
@@ -173,16 +172,16 @@
         <br>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 border border-gray">
+                <div class="col-md-6 cardTemplate1">
                     <div class="card-body1">
                         <img class="mx-auto d-block" src="../images/Card1.JPG" alt="personal banking">
                         <div class="text-center"><span class="text-info ">Personal</span><span> Banking</span></div> 
                         <div class="text-center">
-                            <button type="button" class="btn btn-primary btn-sm rounded-0">LOGIN    &raquo;</button>
+                            <span class="enterType"><button type="button" class="btn btn-sm m-3 mt-3 mb-3 text-white">LOGIN       &raquo;</button></span>
                             <button type="button" class="btn btn-secondary btn-sm rounded-0 p-0"><img src="../images/button yono.JPG"> </button>
                         </div>
                         <br>
-                        <div class="row">
+                        <div class="row jumpTradon text-dark font-weight-bold">
                             <div class="col-md-3 mr-0">
                                 <p>New User<br>Registration</p>
                             </div>
@@ -196,17 +195,17 @@
                                 <p>Lock & <br> Unlock User</p>
                             </div>
                         </div>
-                        <p>SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.</p>
+                        <p class="text-dark">SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.</p>
                     </div>
                 </div>
-                <div class="col-md-6 border border-gray">
+                <div class="col-md-6 cardTemplate2">
                     <div class="card-body2">
                         <img class="mx-auto d-block" src="../images/Card2.JPG" alt="Corporate banking">
                         <div class="text-center"><span class="text-info ">Corporate</span><span> Banking</span></div> 
                         <div class="text-center">
                             <span class="dropdown ">
                                 <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  yono BUSINESS
+                                  yono BUSINESS<span class="powerText"><sup>New</sup></span>
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                   <a class="dropdown-item" href="#">yono BUSINESS</a>
@@ -214,10 +213,10 @@
                                   <a class="dropdown-item" href="#">Supply Chain Finance</a>
                                 </div>
                             </span>
-                            <button type="button" class="btn btn-primary btn-sm rounded-0">LOGIN    &raquo;</button>
+                            <span class="enterType"><button type="button" class="btn btn-sm m-3 mt-3 mb-3 text-white">LOGIN</button></span>
                         </div>
-                        <br>
-                        <div class="row">
+                       <p><em class="text-dark">Have you tried our new simplified and intuitive business banking platform? Log in to yonobusiness.sbi to avail business banking services.</em></p>
+                        <div class="row jumpTradon text-dark font-weight-bold">
                             <div class="col-md-4">
                                 <p>New Corporate<br>Registration</p>
                             </div>
@@ -228,7 +227,7 @@
                                 <p>Customer care</p>
                             </div>
                         </div>
-                        <p>Corporate Banking application to administer and manage non personal accounts online.</p>
+                        <p class="text-dark">Corporate Banking application to administer and manage non personal accounts online.</p>
                     </div>
                 </div>
             </div>
@@ -395,7 +394,7 @@
     <!-- footer starts -->
     <footer>
         <div class="container">
-            <nav class="navbar navbar-light bg-primary">
+            <nav class="navbar footerBar">
                 <span class="navbar-text">
                     © State Bank of India (APM Id:Serv_Tran_564)       Site best viewed at 1024 x 768 resolution in I.E 10+, Mozilla 40+, Google Chrome 50+
                 </span>
