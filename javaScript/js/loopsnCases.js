@@ -82,7 +82,7 @@ do{
 
 //for of loop
 /*var names = ["you tube", "facebook", "Instagram","aha", "zeemovies"];
-for (var n of names){
+for (var n of names) {
     console.log(n);
 }*/
 
@@ -94,10 +94,10 @@ var symbols = {
     UX : "UXfactory",
 };
 //for ( var n in symbols){
-  //  console.log(n);
-//}
-//for ( var n in symbols) {
+//console.log(n);
+
+for ( var n in symbols) {
     //console.log(n);
     //console.log(symbols[n]);
-    //console.log ("key is: ${n} and value is: ${symbols[n]}");
-//}
+    console.log (`key is: ${n} and value is: ${symbols[n]}`);
+}

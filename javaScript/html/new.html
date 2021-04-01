@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keyword" content="javascriptArrays">
+        <meta name="Description" content="javascriptArrays">
+        <meta name="author" content="Anil">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Javascript Arrays</title>
+        <!-- <link href="intro.js" rel="javascript">         -->
+        <!-- <script type="text/javascript" src="../js/array.js"></script> -->
+        <!-- <link href="../css/array.css" rel="CSS Styles"> -->
+    </head>
+    
+    <body>
+            Enter name: <input type="text" id="contactNo" name="fname">
+            <button onclick="myFunction()">Submit</button>
+            <p id="check"></p>
+          
+          <script>
+          function myFunction() {
+            var number = document.getElementById("contactNo").value;
+            document.getElementById("check").innerHTML = number;
+        }
+          </script>
+    </body>
+</html>

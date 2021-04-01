@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keyword" content="javascriptForm Validations">
+        <meta name="Description" content="javascriptForm Validations">
+        <meta name="author" content="Anil">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Javascript Form Validations</title>
+        <link href="../css/formTwovalidation.css" rel="Stylesheet">
+        <script src="https://kit.fontawesome.com/71298c33ad.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../js/formTwovalidation.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="heading">
+                <h2>
+                    NEW APPLICATION FORM
+                </h2>
+            </div>
+            <form class=formMain onsubmit="formValidation()">
+                <div class="form">
+                    <div class="formTab">
+                        <label class="labeL" for=firstName ><b>FIRST NAME</b> (IN CAPITAL LETTERS) </label>
+                        <input class="inpuT" id="fname" type="text" name="fName" placeholder="Enter your first name">
+                    </div>
+                    <div class="formTab">
+                        <label class="labeL" for=lastName><b>LAST NAME</b> (IN CAPITAL LETTERS)</label>
+                        <input class="inpuT" id="lname" type="text" name="lName" placeholder="Enter your last name">
+                    </div>
+                    <div class="formTab">
+                        <label class="labeL" for=DOB >date of birth</label>
+                        <input class="inpuT" id="dob" type="date" name="dob" placeholder="01-01-1991">
+                    </div>
+                    <div class="formTab">
+                        <label class="labeL" for=Age>Age as on 01-01-2021</label>
+                        <input class="inpuT" id="age" type="number" name="age" placeholder="**">
+                    </div>
+                    <div class="formTab">
+                        <label class="labeL" for=City>City</label>
+                        <input class="inpuT" id="cityName" type="text" name="City name" placeholder="Enter City Name">
+                    </div>
+                    <div class="formTab">
+                        <label class="labeL" for=email>Valid email-id</label>
+                        <input class="inpuT" id="Email" type="email" name="mailId" placeholder="***********@***">
+                    </div>
+                    <div class="formTab">
+                        <label class="labeL" for=mobilenumber>Contact Number</label>
+                        <input class="inpuT" id="mobileNum" type="text" name="mobilenumber" value="+91 " placeholder="**********">
+                    </div>
+                    <button>Submit</button>
+                </div>  
+            </form> 
+            </div>
+    </body>
+</html>
