@@ -7,12 +7,20 @@
         <meta name="author" content="Anil">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Javascript drag and drop geolocation</title>
-        <link src= "../" >
+       <link rel="css stylesheet" href="../css/dragDrop.css">
         <script type="text/javascript" src="../js/dragDropgeolocation.js"></script>
     </head>
     <body>
         <h1>Javascript ES6 drag and drop geolocation</h1>
-        <div id="drag" draggable="true" ondragstart="drag(event)"></div>
-        <div id="drop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="container">
+            <div id="drag"  draggable="true" ondragstart="drag(event)"></div>
+            <div id="drop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <!-- <div class = "subContainer">
+            <div id ="drag1" draggable="true" ondragstart="drag(event)"></div>
+            <img src="../images/uxfactory.JPG" draggable="true" ondragstart="drag(event)" width="88" height="31">
+        </div>
+            <div id ="drop1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> -->
+        
     </body>
     </html>

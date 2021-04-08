@@ -1,5 +1,5 @@
 function allowDrop(ev) {
-    ev.preventDefault(); //to make browser not slow when dropping
+    ev.preventDefault(); //to prevent browser not slow when dropping
 }
 
 function drag(ev) {

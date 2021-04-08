@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+}
+#drag{
+    background-color: brown;
+    border: 1px black;
+    width: 285px;
+    height: 185px;
+}
+#drop{
+    background-color:black;
+    border: 1px black;
+    width: 300px;
+    height: 200px;
+}
+#drag1{
+    /* background-color: brown; */
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+   padding: 10px;
+   border: 1px solid black;
+}
+#drop1{
+    /* background-color:black; */
+    width: 200px;
+    height: 120px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
